@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fineBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="blueBand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#fineBg)"/>
+  
+  <g transform="translate(100, 50)">
+    <path d="M20 40 Q100 25 180 40 L195 280 Q100 295 5 280 Z" fill="#FFFFFF" stroke="#3B82F6" stroke-width="2.5"/>
+    <path d="M15 35 Q100 20 185 35" stroke="#1E40AF" stroke-width="4" stroke-dasharray="6,4" fill="none"/>
+    
+    <rect x="18" y="90" width="164" height="110" rx="4" fill="url(#blueBand)"/>
+    
+    <text x="100" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="18" fill="#FFFFFF">
+      FINE WHEAT FLOUR
+    </text>
+    <text x="100" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#93C5FD" letter-spacing="1">
+      MAIDA GRADE • BAKERY
+    </text>
+    
+    <circle cx="100" cy="170" r="16" fill="#EFF6FF"/>
+    <text x="100" y="174" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="10" fill="#1E40AF">
+      EXTRA
+    </text>
+    
+    <rect x="35" y="215" width="130" height="26" rx="13" fill="#DBEAFE" stroke="#60A5FA" stroke-width="1.5"/>
+    <text x="100" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#1E40AF">
+      25kg • 50kg Heavy Sacks
+    </text>
+    
+    <text x="100" y="260" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#1E3A8A">
+      AL RAZZAQUE COMMERCIAL
+    </text>
+  </g>
+</svg>

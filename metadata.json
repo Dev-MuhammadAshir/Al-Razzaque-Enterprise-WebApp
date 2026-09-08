@@ -1,0 +1,7 @@
+{
+  "name": "Al Razzaque Enterprise",
+  "description": "Wheat flour and atta supplier for households, retailers, marts, wholesalers, and bulk buyers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

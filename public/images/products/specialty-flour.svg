@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="specBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF8F6"/>
+      <stop offset="100%" stop-color="#F5EBE6"/>
+    </linearGradient>
+    <linearGradient id="terracottaBand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9A3412"/>
+      <stop offset="100%" stop-color="#C2410C"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#specBg)"/>
+  
+  <g transform="translate(100, 50)">
+    <!-- Modern pouch style -->
+    <path d="M25 40 L175 40 L190 280 L10 280 Z" fill="#FFFFFF" stroke="#EA580C" stroke-width="2.5"/>
+    <rect x="25" y="40" width="150" height="15" fill="#FED7AA"/>
+    
+    <rect x="20" y="95" width="160" height="105" rx="4" fill="url(#terracottaBand)"/>
+    
+    <text x="100" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="16" fill="#FFFFFF">
+      SPECIALTY MILL
+    </text>
+    <text x="100" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#FFEDD5" letter-spacing="1">
+      WHOLE BRAN WHEAT
+    </text>
+    
+    <!-- Badge -->
+    <rect x="40" y="215" width="120" height="26" rx="13" fill="#FFEDD5" stroke="#F97316" stroke-width="1.5"/>
+    <text x="100" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#9A3412">
+      COMING SOON
+    </text>
+    
+    <text x="100" y="260" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#9A3412">
+      AL RAZZAQUE RESERVE
+    </text>
+  </g>
+</svg>

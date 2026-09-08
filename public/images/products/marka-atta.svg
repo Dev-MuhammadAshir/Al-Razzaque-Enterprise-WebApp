@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="markaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDFBF7"/>
+      <stop offset="100%" stop-color="#F3ECE0"/>
+    </linearGradient>
+    <linearGradient id="sackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E28743"/>
+      <stop offset="50%" stop-color="#C86A28"/>
+      <stop offset="100%" stop-color="#9B4B13"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#markaBg)"/>
+  
+  <!-- Flour Bag Silhouette -->
+  <g transform="translate(100, 50)">
+    <!-- Bag stitch line on top -->
+    <path d="M20 40 Q100 25 180 40 L195 280 Q100 295 5 280 Z" fill="#FAF5ED" stroke="#D17B35" stroke-width="3"/>
+    <path d="M15 35 Q100 20 185 35" stroke="#B45309" stroke-width="4" stroke-dasharray="6,4" fill="none"/>
+    
+    <!-- Central Brand Band -->
+    <rect x="18" y="90" width="164" height="110" rx="4" fill="url(#sackGrad)"/>
+    
+    <!-- Marka Atta Label -->
+    <text x="100" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" letter-spacing="1">
+      MARKA ATTA
+    </text>
+    <text x="100" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="12" fill="#FDE68A" letter-spacing="2">
+      QUALITY WHEAT FLOUR
+    </text>
+    
+    <!-- Wheat sheaf icon inside brand band -->
+    <circle cx="100" cy="170" r="16" fill="#FDFBF7"/>
+    <path d="M100 160 L100 180 M96 165 L104 175 M104 165 L96 175" stroke="#B45309" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Pack sizes label -->
+    <rect x="35" y="215" width="130" height="26" rx="13" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="100" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#92400E">
+      5kg • 10kg • 20kg • 50kg
+    </text>
+    
+    <text x="100" y="260" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#78350F">
+      AL RAZZAQUE ENTERPRISE
+    </text>
+  </g>
+</svg>
